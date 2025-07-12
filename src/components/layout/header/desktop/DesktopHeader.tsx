@@ -41,7 +41,7 @@ export default function DesktopHeader() {
           </div>
           <LanguageSelector />
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center mb-2.5">
           <div className="flex items-center gap-x-4">
             <Link to="/">
               <img src="./icons/logo.svg" alt="logo" width={237} height={50} />
@@ -100,12 +100,36 @@ export default function DesktopHeader() {
           </div>
         </div>
         <div className="flex items-center">
-          <div className="w-[16.5rem] p-5 rounded-tl-sm rounded-bl-sm bg-[#f4f5f6]">
+          <div className="w-[16.5rem] flex items-center gap-x-6 p-5 rounded-tl-sm rounded-bl-sm bg-[#f4f5f6]">
+            <img
+              src="./icons/burger-menu.svg"
+              alt="burger menu icon"
+              width={18}
+            />
             <p className="font-normal text-sm leading-3.5">
               Каталог оборудования
             </p>
           </div>
-          <Input className="w-[56.25rem] h-14 rounded-none" placeholder="Поиск по товарам или категориям...."/>
+          <div className="relative">
+            <Input
+              className="w-[59.375rem] h-14 rounded-none"
+              placeholder="Поиск по товарам или категориям...."
+            />
+            <img
+              src="./icons/search.svg"
+              alt="search icon"
+              className="absolute right-2 top-1/6"
+              width={40}
+              height={40}
+            />
+          </div>
+          <button>
+            <img
+              src="./icons/saved.svg"
+              alt="saved icon"
+              className="px-6 py-4 border"
+            />
+          </button>
         </div>
       </div>
     </header>
