@@ -76,7 +76,7 @@ export default function About() {
               </div>
             </li>
           </ul>
-          <img src="./rectangle.svg" alt="ru filter logo" />
+          <img src="./rectangle.png" alt="ru filter logo" />
         </div>
       </div>
     </section>
