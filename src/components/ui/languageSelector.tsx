@@ -18,20 +18,28 @@ export default function LanguageSelector() {
   const { i18n: tI18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState<Language["code"]>("ru");
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const savedLang = localStorage.getItem("app-language") as Language["code"];
-    if (savedLang) {
-      setCurrentLang(savedLang);
-      tI18n.changeLanguage(savedLang);
-    }
+    const defaultLang = savedLang || "ru";
+    setCurrentLang(defaultLang);
+    tI18n.changeLanguage(defaultLang);
   }, [tI18n]);
 
-  const handleLanguageChange = (lang: Language["code"]) => {
+  const handleLanguageChange = async (lang: Language["code"]) => {
     localStorage.setItem("app-language", lang);
     setCurrentLang(lang);
-    tI18n.changeLanguage(lang);
+    setLoading(true);
     setIsOpen(false);
+
+    try {
+      await tI18n.changeLanguage(lang);
+    } catch (error) {
+      console.error("Ошибка загрузки переводов:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -64,6 +72,7 @@ export default function LanguageSelector() {
             ))}
         </ul>
       )}
+      {loading && <div>Загрузка переводов...</div>}
     </div>
   );
 }
