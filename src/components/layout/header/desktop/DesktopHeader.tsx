@@ -1,24 +1,15 @@
 import { Input, LanguageSelector } from "@/components/ui";
 import { Link, NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function DesktopHeader() {
+  const { t } = useTranslation();
+
   const navList = [
-    {
-      title: "Главный",
-      to: "/",
-    },
-    {
-      title: "Продукция",
-      to: "/products",
-    },
-    {
-      title: "Новости",
-      to: "/news",
-    },
-    {
-      title: "Контакты",
-      to: "/contacts",
-    },
+    { title: t("home"), to: "/" },
+    { title: t("products"), to: "/products" },
+    { title: t("news"), to: "/news" },
+    { title: t("contacts"), to: "/contacts" },
   ];
 
   return (
