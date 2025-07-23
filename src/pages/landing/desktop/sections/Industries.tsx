@@ -7,22 +7,22 @@ export default function Industries() {
         </h2>
         <ul className="grid grid-cols-4 gap-[1.625rem] mt-4">
           <li className="col-span-2">
-            <img src="./xim.png" alt="CHEMICAL INDUSTRY img" />
+            <img src="./xim.webp" alt="CHEMICAL INDUSTRY img" />
           </li>
           <li className="col-span-1">
-            <img src="./neft.png" alt="OIL AND GAS INDUSTRY img" />
+            <img src="./neft.webp" alt="OIL AND GAS INDUSTRY img" />
           </li>
           <li className="col-span-1">
-            <img src="./stroitel.png" alt="CONSTRUCTION INDUSTRY img" />
+            <img src="./stroitel.webp" alt="CONSTRUCTION INDUSTRY img" />
           </li>
           <li className="col-span-1">
-            <img src="./stroitrl-2.png" alt="CONSTRUCTION INDUSTRY img" />
+            <img src="./stroitrl-2.webp" alt="CONSTRUCTION INDUSTRY img" />
           </li>
           <li className="col-span-1">
-            <img src="./ugol.png" alt="COAL INDUSTRY img" />
+            <img src="./ugol.webp" alt="COAL INDUSTRY img" />
           </li>
           <li className="col-span-2">
-            <img src="./eat.png" alt="FOOD INDUSTRY img" />
+            <img src="./eat.webp" alt="FOOD INDUSTRY img" />
           </li>
         </ul>
       </div>

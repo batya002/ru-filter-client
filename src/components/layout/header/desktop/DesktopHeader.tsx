@@ -109,9 +109,9 @@ export default function DesktopHeader() {
             <img
               src="./icons/search.svg"
               alt="search icon"
-              className="absolute right-2 top-1/6"
-              width={40}
-              height={40}
+              className="absolute right-4 top-4"
+              width={24}
+              height={24}
             />
           </div>
           <button>
