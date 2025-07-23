@@ -1,7 +1,7 @@
 export default function Choose() {
   return (
     <section className="my-[8.375rem]">
-      <div className="container bg-[url('./choose-bg.png')] bg-cover bg-no-repeat">
+      <div className="container  bg-cover bg-no-repeat" style={{backgroundImage: "url(./choose-bg.png)"}}>
         <h2 className="text-center font-bold text-4xl pt-[2.0625rem] text-white">ПОЧЕМУ ВЫБИРАЮТ НАС?</h2>
         <ul className="flex gap-x-[3.9375rem] gap-y-7 justify-center items-center flex-wrap pt-9 pb-6">
           <li className="bg-[#292639D9] w-[33.3125rem] flex gap-x-5 px-[30] py-4 rounded-3xl">
