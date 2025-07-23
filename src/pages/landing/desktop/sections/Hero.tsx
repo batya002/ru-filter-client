@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="mt-[4.625rem] mb-[8.8125rem]">
       <div className="container">
         <div className="flex items-center justify-between">
-          <div className="w-[54.3125rem] bg-[url('./backgrounds/hero-3.webp')] px-9 pt-9 pb-12 bg-no-repeat">
+          <div className="w-[54.3125rem] bg-[url('./hero-3.webp')] px-9 pt-9 pb-12 bg-no-repeat">
             <div className="w-[30.125rem]">
               <h1 className="font-normal text-4xl leading-9 text-white font-gbold">
                 Масляные фильтры Универсальные технологии фильтрации
@@ -28,7 +28,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex flex-col gap-y-8">
-            <div className="w-[23.625rem] bg-[url('./backgrounds/hero-1.webp')] bg-no-repeat px-7 pt-[1.125rem] pb-[1.3125rem]">
+            <div className="w-[23.625rem] bg-[url('./hero-1.webp')] bg-no-repeat px-7 pt-[1.125rem] pb-[1.3125rem]">
               <div className="w-[11.875rem]">
                 <h2 className="font-normal font-gbold text-[1.1875rem] leading-6 text-white mb-[0.5625rem]">
                   Воздушные фильтры WIX
@@ -41,7 +41,7 @@ export default function Hero() {
                 </button>
               </div>
             </div>
-            <div className="w-[23.625rem] bg-[url('./backgrounds/hero-2.webp')] bg-no-repeat px-7 pt-[1.4375rem] pb-5">
+            <div className="w-[23.625rem] bg-[url('./hero-2.webp')] bg-no-repeat px-7 pt-[1.4375rem] pb-5">
               <div className="w-[11.25rem]">
                 <h2 className="font-normal font-gbold text-[1.1875rem] leading-6 text-white mb-[0.4375rem]">
                   Масляные фильтры Raf filter
