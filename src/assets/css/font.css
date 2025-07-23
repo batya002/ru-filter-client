@@ -1,0 +1,17 @@
+@font-face {
+  font-display: swap;
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/gilroy/Gilroy-Bold.ttf")
+    format("ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/gilroy/Gilroy-Light.ttf")
+    format("ttf");
+}
