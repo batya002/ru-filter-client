@@ -4,7 +4,7 @@ export default function Choose() {
       <div className="container">
         <div
           className="bg-cover bg-no-repeat"
-          style={{ backgroundImage: "url(./choose-bg.png)" }}
+          style={{ backgroundImage: "url(./choose-bg.webp)" }}
         >
           <h2 className="text-center font-bold font-gbold text-4xl pt-[2.0625rem] text-white">
             ПОЧЕМУ ВЫБИРАЮТ НАС?

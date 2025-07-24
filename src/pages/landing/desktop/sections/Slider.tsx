@@ -13,7 +13,7 @@ const slides: Slide[] = [
   {
     title: "Каркасы для рукавных фильтров: виды, материалы и подбор",
     description: "Каркасы фильтровальных рукавов состоят из нескольких частей",
-    imageUrl: "./slider-3.png",
+    imageUrl: "./slider-3.webp",
     content: (
       <ul className="list-disc pl-5 mt-2 text-white/80 mb-14">
         <li>корпус;</li>
@@ -27,7 +27,7 @@ const slides: Slide[] = [
     title:
       "Воздушный фильтр очищения воздуха,предотвращающее описанные ситуации.",
     description: "Главное о воздушных фильтрах",
-    imageUrl: "./slider-1.png",
+    imageUrl: "./slider-1.webp",
     content: (
       <ul className="list-disc pl-5 mt-2 text-white/80 mb-14">
         <li>Производятся цилиндрические, панельные и бескаркасные варианты.</li>
@@ -43,7 +43,7 @@ const slides: Slide[] = [
     title: "Откройте для себя наше стремление к превосходной фильтрации",
     description:
       "В UzFiltr фильтрация - это больше, чем просто процесс, это приверженность качеству и эффективности. Благодаря многолетнему опыту и стремлению предоставлять первоклассные решения, наша команда экспертов обеспечивает чистую и надежную фильтрацию для отраслей, которые двигают прогресс.",
-    imageUrl: "./slider-2.png",
+    imageUrl: "./slider-2.webp",
     button: false,
   },
 ];
@@ -62,7 +62,7 @@ export const Slider: React.FC = () => {
   const current = slides[currentIndex];
 
   return (
-    <section className="mb-[4.6875rem]">
+    <section className="mb-[8.25rem]">
       <div className="container">
         <div
           className="relative overflow-hidden rounded-xl shadow-lg bg-cover bg-center transition-all duration-500"

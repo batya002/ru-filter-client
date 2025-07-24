@@ -1,4 +1,4 @@
-import { About, Choose, Hero, Industries, Slider, Trust } from "../sections";
+import { About, Approach, Certificates, Choose, Hero, Industries, Slider, Trust } from "../sections";
 
 export default function DesktopLanding() {
   return (
@@ -9,6 +9,8 @@ export default function DesktopLanding() {
       <Industries />
       <Choose />
       <Slider />
+      <Approach />
+      <Certificates />
     </main>
   )
 }
