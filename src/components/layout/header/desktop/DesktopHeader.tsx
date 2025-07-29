@@ -6,10 +6,10 @@ export default function DesktopHeader() {
   const { t } = useTranslation();
 
   const navList = [
-    { title: t("home"), to: "/" },
-    { title: t("products"), to: "/products" },
-    { title: t("news"), to: "/news" },
-    { title: t("contacts"), to: "/contacts" },
+    { title: t("nav.home"), to: "/" },
+    { title: t("nav.products"), to: "/products" },
+    { title: t("nav.news"), to: "/news" },
+    { title: t("nav.contacts"), to: "/contacts" },
   ];
 
   return (
@@ -59,7 +59,7 @@ export default function DesktopHeader() {
           <div className="flex items-center gap-x-5">
             <div className="w-[10.1875rem]">
               <p className="font-normal text-sm leading-6">
-                Получите консультацию в мессенджерах
+                {t("header.get_consultation")}
               </p>
             </div>
             <ul className="flex items-center gap-x-2">
@@ -98,13 +98,13 @@ export default function DesktopHeader() {
               width={18}
             />
             <p className="font-normal text-sm leading-3.5">
-              Каталог оборудования
+              {t("header.catalog")}
             </p>
           </div>
           <div className="relative">
             <Input
               className="w-[59.375rem] h-14 rounded-none"
-              placeholder="Поиск по товарам или категориям...."
+              placeholder={t("header.search_placeholder")}
             />
             <img
               src="./icons/search.svg"

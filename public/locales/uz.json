@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "news": "Yangiliklar",
+    "contacts": "Aloqa"
+  },
+  "header": {
+    "get_consultation": "Messenger orqali maslahat oling",
+    "catalog": "Uskunalar katalogi",
+    "search_placeholder": "Mahsulot yoki toifa bo‘yicha qidiring...."
+  },
+  "hero": {
+    "main_title": "Moy filtrlari – Umumiy filtrlash texnologiyalari",
+    "feature_1": "Nominal filtrlash nozikligi",
+    "feature_2": "Tavsiya etilgan yakuniy bosim farqi",
+    "feature_3": "Ishchi bosim",
+    "feature_4": "Namlikka chidamlilik",
+    "to_catalog": "Katalogga",
+    "box1_title": "WIX havo filtrlari",
+    "box1_desc": "Samarali havo filtri barcha ifloslantiruvchi moddalarni ushlaydi",
+    "box2_title": "Raf filter moy filtrlari",
+    "box2_desc": "RAF Filter Premium filtrlari ilg‘or texnologiya yordamida eng yaxshi havo tozalashni ta'minlaydi"
+  },
+  "about": {
+    "intro": "Biz – bu samarali yechimlar yaratadigan professionallar jamoasimiz. Biz 10 yildan ortiq vaqtdan beri mijozlarga maqsadlariga erishishda va oldinga intilishda yordam beramiz.",
+    "block1": {
+      "title": "Biz haqimizda",
+      "text": "Biz o‘z ishimizni sevamiz va uni sifatli bajaramiz. Biz uchun nafaqat natija, balki jarayon ham sizga yoqishi muhim. Halol, yurakdan va mas’uliyat bilan ishlaymiz."
+    },
+    "block2": {
+      "title": "Biz kimmiz?",
+      "text": "Biz – bu zamonaviy, texnologik rivojlanishga va o‘sishga yo‘naltirilgan kompaniyamiz. Doimiy rivojlanish va tafsilotlarga e’tibor – yuqori natijaga erishish yo‘limiz."
+    },
+    "block3": {
+      "title": "Ishonchlilik. Sifat. Tajriba.",
+      "text": "Biz ishimizni halol, tez va kafolatli natijaga erishib bajaramiz."
+    },
+    "block4": {
+      "title": "Bizning missiyamiz",
+      "text": "Biz biznesingizni yaxshilaydigan mahsulot va xizmatlar yaratamiz. Har bir yechim tahlil, tajriba va mukammal natijaga intilish asosida yaratilgan."
+    }
+  },
+  "trust": {
+    "title": "Bizga ishonishadi"
+  },
+  "industries": {
+    "title": "Biz xizmat ko'rsatadigan sohalar!",
+    "chemical": "KIMYO SANOATI",
+    "oilgas": "NEFT-GAZ SANOATI",
+    "construction": "QURILISH SANOATI",
+    "coal": "KO'MIR SANOATI",
+    "food": "OZIQ-OVQAT SANOATI"
+  },
+  "choose": {
+    "title": "NEGA BIZNI TANLAYDI?",
+    "items": [
+      {
+        "title": "ISHONCHLI YETKAZIB BERUVCHILAR",
+        "text": "Biz halol va uzoq muddatli aloqalar o‘rnatamiz, ishonchli hamkorlarni tanlaymiz"
+      },
+      {
+        "title": "MIJOZGA YO‘NALGANLIK",
+        "text": "Mijoz loyihalariga e’tibor qaratamiz, ularning ehtiyojlarini tushunamiz va tezda javob beramiz."
+      },
+      {
+        "title": "TEZKOR JAVOB",
+        "text": "Noan’anaviy masalalarni byurokratiyasiz hal qilamiz. Minimum rasmiyatchilik — maksimal natija."
+      },
+      {
+        "title": "SAMARADORLIKNI OSHIRAMIZ",
+        "text": "Ichki jarayonlarimizni doimiy takomillashtiramiz, maksimal natija uchun."
+      }
+    ]
+  },
+  "slider": {
+    "slide1": {
+      "title": "Yumaloq filtrlar uchun karkaslar: turlari, materiallari va tanlash",
+      "description": "Filtrlovchi qoplamalar karkasi bir nechta qismlardan iborat",
+      "list": [
+        "korpus;",
+        "kirish va chiqish trubkasi;",
+        "o‘rnatish elementlari."
+      ]
+    },
+    "slide2": {
+      "title": "Havoni tozalovchi filtr, ko‘rsatilgan holatlarning oldini oladi.",
+      "description": "Havo filtrlari haqida asosiy ma'lumotlar",
+      "list": [
+        "Silindrsimon, panel va karkassiz variantlar ishlab chiqariladi.",
+        "Ularni ishlab chiqarishda eng ko‘p ishlatiladigan material — karton.",
+        "Baʼzi davlatlarda bu ruxsat etilgan."
+      ]
+    },
+    "slide3": {
+      "title": "Yuqori darajadagi filtratsiyaga intilishimizni kashf eting",
+      "description": "UzFiltrda filtratsiya shunchaki jarayon emas, bu sifat va samaradorlikka sodiqlikdir. Ko‘p yillik tajriba va mukammallikka intilish tufayli bizning mutaxassislar jamoasi sanoat uchun ishonchli toza filtratsiyani ta'minlaydi."
+    },
+    "button": "Mahsulotlar katalogi"
+  },
+  "approach": {
+    "title": "Mijozlarga yondashuv va loyiha amalga oshirilishi",
+    "step1": {
+      "title": "KONSULTATSIYA VA TALABLARNI TAHLIL QILISH",
+      "text": "Biz mijozning ehtiyojlari, ishlab chiqarish xususiyatlari va foydalanish sharoitlarini batafsil o‘rganishdan boshlaymiz."
+    },
+    "step2": {
+      "title": "TEXNIK YECHIMNI ISHLAB CHIQISH",
+      "text": "Tahlil asosida muhandislarimiz individual filtrlash tizimi loyihasini ishlab chiqadi."
+    },
+    "step3": {
+      "title": "USKUNANI ISHLAB CHIQARISH",
+      "text": "Filtrlar va ehtiyot qismlar zamonaviy texnologiyalar asosida o‘z ishlab chiqarish quvvatlarimizda tayyorlanadi."
+    },
+    "step4": {
+      "title": "YETKAZIB BERISH VA O‘RNATISH",
+      "text": "Uskuna mijoz ob’ektiga yetkaziladi va kerak bo‘lsa, RuFiltr mutaxassislari tomonidan o‘rnatiladi va sozlanadi."
+    }
+  },
+  "certificates": {
+    "title": "Bizning Sertifikatlarimiz",
+    "alt": "sertifikat rasmi"
+  }
+}

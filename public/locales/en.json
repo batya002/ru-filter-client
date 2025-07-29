@@ -1,6 +1,120 @@
 {
-  "home": "Home",
-  "products": "Products",
-  "news": "News",
-  "contacts": "Contacts"
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "news": "News",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "get_consultation": "Get consultation in messengers",
+    "catalog": "Equipment catalog",
+    "search_placeholder": "Search by product or category...."
+  },
+  "hero": {
+    "main_title": "Oil Filters – Universal Filtration Technologies",
+    "feature_1": "Nominal filtration fineness",
+    "feature_2": "Recommended final pressure drop",
+    "feature_3": "Operating pressure",
+    "feature_4": "Moisture resistance",
+    "to_catalog": "To catalog",
+    "box1_title": "WIX Air Filters",
+    "box1_desc": "Efficient air filter captures all air contaminants",
+    "box2_title": "Raf Filter Oil Filters",
+    "box2_desc": "RAF Filter Premium filters provide optimal air purification through advanced technology"
+  },
+  "about": {
+    "intro": "We are a team of professionals creating effective business solutions. For over [10] years, we've been helping clients achieve goals and move forward with confidence.",
+    "block1": {
+      "title": "About Us",
+      "text": "We love what we do, and we do it well. We care that you're happy not just with the result, but also the process. We work honestly, with heart and integrity."
+    },
+    "block2": {
+      "title": "Who are we?",
+      "text": "We are a modern company focused on technology, efficiency, and growth. Continuous development and attention to detail are our path to high performance."
+    },
+    "block3": {
+      "title": "Reliability. Quality. Experience.",
+      "text": "We do our work honestly, quickly, and with a guaranteed result."
+    },
+    "block4": {
+      "title": "Our Mission",
+      "text": "We create products and services that help businesses grow. Every solution is based on analysis, experience, and a pursuit of perfect results."
+    }
+  },
+  "trust": {
+    "title": "Trusted by"
+  },
+  "industries": {
+    "title": "Industries We Serve!",
+    "chemical": "CHEMICAL INDUSTRY",
+    "oilgas": "OIL AND GAS INDUSTRY",
+    "construction": "CONSTRUCTION INDUSTRY",
+    "coal": "COAL INDUSTRY",
+    "food": "FOOD INDUSTRY"
+  },
+  "choose": {
+    "title": "WHY CHOOSE US?",
+    "items": [
+      {
+        "title": "RELIABLE SUPPLIERS",
+        "text": "We build long-term and honest relationships with our suppliers, choosing partners based on key criteria."
+      },
+      {
+        "title": "CLIENT-ORIENTED",
+        "text": "We focus on client projects, understand their needs, and respond promptly to any requests."
+      },
+      {
+        "title": "FAST RESPONSE",
+        "text": "We solve non-standard tasks quickly without bureaucracy. Minimum formality — maximum results."
+      },
+      {
+        "title": "EFFICIENCY IMPROVEMENT",
+        "text": "We constantly improve our internal processes for maximum results."
+      }
+    ]
+  },
+  "slider": {
+    "slide1": {
+      "title": "Bag filter frames: types, materials and selection",
+      "description": "Bag filter frames consist of several parts",
+      "list": ["housing;", "inlet and outlet pipe;", "mounting elements."]
+    },
+    "slide2": {
+      "title": "Air filter for air purification, preventing the described situations.",
+      "description": "Key facts about air filters",
+      "list": [
+        "Cylindrical, panel, and frameless options are produced.",
+        "Cardboard remains the most popular manufacturing material.",
+        "Allowed in some countries."
+      ]
+    },
+    "slide3": {
+      "title": "Discover our commitment to superior filtration",
+      "description": "At UzFiltr, filtration is more than just a process — it’s a commitment to quality and efficiency. With years of experience and dedication to top-tier solutions, our expert team ensures clean and reliable filtration for industries driving progress."
+    },
+    "button": "Product catalog"
+  },
+  "approach": {
+    "title": "Customer approach and project implementation",
+    "step1": {
+      "title": "CONSULTATION AND NEEDS ANALYSIS",
+      "text": "We start with a detailed study of the client's needs, the specifics of their production, and operating conditions."
+    },
+    "step2": {
+      "title": "TECHNICAL SOLUTION DEVELOPMENT",
+      "text": "Based on the analysis, our engineers design a custom filtration system project."
+    },
+    "step3": {
+      "title": "EQUIPMENT MANUFACTURING",
+      "text": "Filters and components are manufactured in-house using modern technologies."
+    },
+    "step4": {
+      "title": "DELIVERY AND INSTALLATION",
+      "text": "The equipment is delivered to the customer's site and, if needed, installed and commissioned by RuFiltr specialists."
+    }
+  },
+  "certificates": {
+    "title": "Our Certificates",
+    "alt": "certificate image"
+  }
 }

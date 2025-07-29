@@ -1,6 +1,10 @@
+import { About, Hero } from "../sections";
 
 export default function MobileLanding() {
   return (
-    <div>MobileLanding</div>
+    <main>
+      <Hero />
+      <About />
+    </main>
   )
 }

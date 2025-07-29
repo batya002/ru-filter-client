@@ -11,6 +11,7 @@ export default function DesktopLanding() {
       <Slider />
       <Approach />
       <Certificates />
+      {/* <InfiniteTestimonials /> */}
     </main>
   )
 }

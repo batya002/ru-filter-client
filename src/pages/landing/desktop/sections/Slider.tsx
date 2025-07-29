@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 type Slide = {
   title: string;
@@ -9,46 +10,43 @@ type Slide = {
   button: boolean;
 };
 
-const slides: Slide[] = [
-  {
-    title: "Каркасы для рукавных фильтров: виды, материалы и подбор",
-    description: "Каркасы фильтровальных рукавов состоят из нескольких частей",
-    imageUrl: "./slider-3.webp",
-    content: (
-      <ul className="list-disc pl-5 mt-2 text-white/80 mb-14">
-        <li>корпус;</li>
-        <li>входной и выходной патрубок;</li>
-        <li>монтажные элементы.</li>
-      </ul>
-    ),
-    button: true,
-  },
-  {
-    title:
-      "Воздушный фильтр очищения воздуха,предотвращающее описанные ситуации.",
-    description: "Главное о воздушных фильтрах",
-    imageUrl: "./slider-1.webp",
-    content: (
-      <ul className="list-disc pl-5 mt-2 text-white/80 mb-14">
-        <li>Производятся цилиндрические, панельные и бескаркасные варианты.</li>
-        <li>
-          Наиболее популярным материалом для их изготовления остается картон.
-        </li>
-        <li>В некоторых государствах разрешается.</li>
-      </ul>
-    ),
-    button: true,
-  },
-  {
-    title: "Откройте для себя наше стремление к превосходной фильтрации",
-    description:
-      "В UzFiltr фильтрация - это больше, чем просто процесс, это приверженность качеству и эффективности. Благодаря многолетнему опыту и стремлению предоставлять первоклассные решения, наша команда экспертов обеспечивает чистую и надежную фильтрацию для отраслей, которые двигают прогресс.",
-    imageUrl: "./slider-2.webp",
-    button: false,
-  },
-];
-
 export const Slider: React.FC = () => {
+  const { t } = useTranslation();
+  const slides: Slide[] = [
+    {
+      title: t("slider.slide1.title"),
+      description: t("slider.slide1.description"),
+      imageUrl: "./images/slider-3.webp",
+      content: (
+        <ul className="list-disc pl-5 mt-2 text-white/80 mb-6">
+          <li>{t("slider.slide1.list.0")}</li>
+          <li>{t("slider.slide1.list.1")}</li>
+          <li>{t("slider.slide1.list.2")}</li>
+        </ul>
+      ),
+      button: true,
+    },
+    {
+      title: t("slider.slide2.title"),
+      description: t("slider.slide2.description"),
+      imageUrl: "./images/slider-1.webp",
+      content: (
+        <ul className="list-disc pl-5 mt-2 text-white/80 mb-6">
+          <li>{t("slider.slide2.list.0")}</li>
+          <li>{t("slider.slide2.list.1")}</li>
+          <li>{t("slider.slide2.list.2")}</li>
+        </ul>
+      ),
+      button: true,
+    },
+    {
+      title: t("slider.slide3.title"),
+      description: t("slider.slide3.description"),
+      imageUrl: "./images/slider-2.webp",
+      button: false,
+    },
+  ];
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -59,6 +57,13 @@ export const Slider: React.FC = () => {
     setCurrentIndex((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   const current = slides[currentIndex];
 
   return (
@@ -68,42 +73,37 @@ export const Slider: React.FC = () => {
           className="relative overflow-hidden rounded-xl shadow-lg bg-cover bg-center transition-all duration-500"
           style={{ backgroundImage: `url(${current.imageUrl})` }}
         >
-          <div className="p-14 w-[36.3125rem]">
-            <div className="text-white font-glight font-normal text-xl">
-              <h2 className="text-4xl font-normal font-gbold">
-                {current.title}
-              </h2>
-              <p className="mt-14">{current.description}</p>
+          <div className="p-14 w-[36.3125rem] h-[32.5rem] flex flex-col justify-start">
+            <div className="text-white font-glight text-xl">
+              <h2 className="text-4xl font-gbold">{current.title}</h2>
+              <p className="mt-10">{current.description}</p>
               {current.content}
-              {current.button ? (
+              {current.button && (
                 <button
-                  className={`mt-4 px-11 py-3 rounded-[3.125rem] font-medium font-roboto text-xl transition-all duration-300 ${
-                    current.imageUrl === "./slider-1.png"
+                  className={`px-11 py-3 rounded-[3.125rem] font-medium font-roboto text-xl transition-all duration-300 ${
+                    currentIndex === 1
                       ? "bg-black text-white"
                       : "bg-[#1a56ff] text-white"
                   }`}
                 >
-                  Каталог товаров
+                  {t("slider.button")}
                 </button>
-              ) : (
-                ""
               )}
             </div>
-            <div className="hidden md:block"></div>
           </div>
           <button
             onClick={prevSlide}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow z-20"
+            className="absolute left-4 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow z-20"
           >
             <ChevronLeft size={12} />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow z-20"
+            className="absolute right-4 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow z-20"
           >
             <ChevronRight size={12} />
           </button>
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
             {slides.map((_, idx) => (
               <span
                 key={idx}
