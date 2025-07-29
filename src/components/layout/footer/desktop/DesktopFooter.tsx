@@ -9,10 +9,10 @@ export default function DesktopFooter() {
         <div className="flex items-center justify-between pb-6 border-b border-b-[#46464d]">
           <div className="w-[26rem]">
             <p className="font-bold text-3xl text-white">
-              {t("footer.getConsultation")}
+              {t("footer.consultation")}
             </p>
             <span className="font-normal text-2xl text-[#8d8d92]">
-              {t("footer.byPhoneOrMessengers")}
+              {t("footer.byPhone")}
             </span>
           </div>
           <div>
@@ -59,7 +59,7 @@ export default function DesktopFooter() {
         <div className="pt-8 pb-9 border-b border-b-[#46464d] flex items-center gap-x-[5.625rem]">
           <div>
             <h3 className="font-bold text-[1rem] leading-6 text-white mb-4">
-              {t("footer.store")}
+              {t("footer.shop")}
             </h3>
             <a href="#" className="block font-normal text-[1rem] leading-6 text-white mb-3">
               {t("footer.delivery")}
@@ -68,29 +68,29 @@ export default function DesktopFooter() {
               {t("footer.payment")}
             </a>
             <a href="#" className="block font-normal text-[1rem] leading-6 text-white">
-              {t("footer.exchangeAndReturn")}
+              {t("footer.exchange")}
             </a>
           </div>
           <div>
             <div className="mb-4">
               <h3 className="font-bold text-[1rem] leading-6 text-white">
-                {t("footer.officeMoscow")}
+                {t("footer.moscowOffice")}
               </h3>
               <div className="flex items-center gap-x-2">
                 <img src="./icons/map-pin.svg" alt="map pin icon" className="w-[0.8125rem] h-[0.8125rem]" />
                 <p className="font-normal text-[1rem] leading-6 text-white">
-                  {t("footer.officeAddress")}
+                  {t("footer.address")}
                 </p>
               </div>
             </div>
             <div>
               <h3 className="font-bold text-[1rem] leading-6 text-white">
-                {t("footer.officeTashkent")}
+                {t("footer.tashkentOffice")}
               </h3>
               <div className="flex items-center gap-x-2">
                 <img src="./icons/map-pin.svg" alt="map pin icon" className="w-[0.8125rem] h-[0.8125rem]" />
                 <p className="font-normal text-[1rem] leading-6 text-white">
-                  {t("footer.officeAddress")}
+                  {t("footer.address")}
                 </p>
               </div>
             </div>
