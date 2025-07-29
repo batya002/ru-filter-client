@@ -16,9 +16,11 @@ export default function App() {
   return (
     <>
       <Header isMobile={isMobile} />
-      <Routes>
-        <Route path="/" element={<Main isMobile={isMobile} />}  />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Main isMobile={isMobile} />} />
+        </Routes>
+      </main>
       <Footer isMobile={isMobile} />
     </>
   );

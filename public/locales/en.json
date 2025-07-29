@@ -116,5 +116,30 @@
   "certificates": {
     "title": "Our Certificates",
     "alt": "certificate image"
+  },
+
+  "infiniteMarquee": {
+    "title": "Deeply integrated with the rest of your tech infrastructure",
+    "description": "Over 100 integrations with Shopify, Klaviyo, Yotpo, and other components of your e-commerce system, allowing you to easily sync customer engagement data from video with your workflows, automations, and customer profiles.",
+    "reviews": [
+      "Instantly send videos into Intercom messenger for quick ticket resolution and support.",
+      "Easily embed interactive Tolstoy on your site to engage and communicate.",
+      "Add Tolstoy to Shopify to address your business needs.",
+      "Embed Tolstoy as a popup or on-site element anytime.",
+      "Generate leads and send data directly to HubSpot via Tolstoy.",
+      "Automatically send interaction data to Gorgias.",
+      "Tolstoy helps capture attention on your site at any time.",
+      "Add new Klaviyo subscribers directly from Tolstoy.",
+      "Zapier simplifies automation and integrates with services like Salesforce, Google, and more."
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "official": "Do you work officially?",
+      "power": "Is the power supply included in the price?",
+      "guarantee": "What guarantees does your company provide?",
+      "contract": "Do you work under a contract?"
+    }
   }
 }

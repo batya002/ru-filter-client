@@ -1,8 +1,8 @@
-import { About, Approach, Certificates, Choose, Hero, Industries, InfiniteTestimonials, Slider, Trust } from "../sections";
+import { About, Approach, Certificates, Choose, Hero, Industries, InfiniteTestimonials, Question, Slider, Trust } from "../sections";
 
 export default function DesktopLanding() {
   return (
-    <main>
+    <>
       <Hero />
       <About />
       <Trust />
@@ -12,6 +12,7 @@ export default function DesktopLanding() {
       <Approach />
       <Certificates />
       <InfiniteTestimonials />
-    </main>
+      <Question />
+    </>
   )
 }

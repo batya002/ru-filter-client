@@ -120,5 +120,29 @@
   "certificates": {
     "title": "Bizning Sertifikatlarimiz",
     "alt": "sertifikat rasmi"
+  },
+  "infiniteMarquee": {
+    "title": "Texnologik infratuzilmangizning qolgan qismi bilan chuqur integratsiyalashgan",
+    "description": "Shopify, Klaviyo, Yotpo va boshqa e-commerce tizimingiz komponentlari bilan 100 dan ortiq integratsiyalar mavjud bo‘lib, mijozlarning video orqali ishtirok maʼlumotlarini ish jarayonlari, avtomatlashtirishlar va mijoz profillari bilan osongina sinxronlashtirish imkonini beradi.",
+    "reviews": [
+      "So‘rovlarni tezda hal qilish va qo‘llab-quvvatlash uchun videolarni darhol Intercom messenjeriga yuboring.",
+      "Interaktiv Tolstoy’ni saytingizga osongina joylashtiring va mijozlar bilan muloqot qiling.",
+      "Tolstoy’ni Shopify’ga qo‘shing va biznes ehtiyojlaringizni hal qiling.",
+      "Tolstoy’ni har qanday vaqtda popap yoki sayt elementi sifatida qo‘shing.",
+      "Leedlar yarating va maʼlumotlarni HubSpot’ga to‘g‘ridan-to‘g‘ri yuboring.",
+      "Interaktivlik maʼlumotlarini avtomatik ravishda Gorgias tizimiga yuboring.",
+      "Tolstoy istalgan vaqtda saytingizda e’tibor jalb qilishga yordam beradi.",
+      "Tolstoy orqali Klaviyo’ga yangi obunachilarni qo‘shing.",
+      "Zapier avtomatlashtirishni soddalashtiradi va Salesforce, Google kabi xizmatlarga ulanishni ta'minlaydi."
+    ]
+  },
+  "faq": {
+    "title": "Ko‘p so‘raladigan savollar",
+    "questions": {
+      "official": "Siz rasmiy ravishda ishlaysizmi?",
+      "power": "Quvvat manbai narxga kiritilganmi?",
+      "guarantee": "Kompaniyangiz qanday kafolatlar beradi?",
+      "contract": "Siz shartnoma asosida ishlaysizmi?"
+    }
   }
 }
