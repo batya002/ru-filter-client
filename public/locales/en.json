@@ -141,5 +141,17 @@
       "guarantee": "What guarantees does your company provide?",
       "contract": "Do you work under a contract?"
     }
+  },
+  "footer": {
+    "consultation": "Get a consultation",
+    "byPhone": "by phone or messengers",
+    "shop": "Shop",
+    "delivery": "Delivery",
+    "payment": "Payment",
+    "exchange": "Exchange and return",
+    "moscowOffice": "Office in Moscow:",
+    "tashkentOffice": "Office in Tashkent:",
+    "address": "Presnenskaya embankment, 12",
+    "copyright": "© 2024 Copyright"
   }
 }

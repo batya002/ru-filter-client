@@ -144,5 +144,17 @@
       "guarantee": "Kompaniyangiz qanday kafolatlar beradi?",
       "contract": "Siz shartnoma asosida ishlaysizmi?"
     }
+  },
+  "footer": {
+    "consultation": "Konsultatsiya oling",
+    "byPhone": "telefon yoki messenjerlar orqali",
+    "shop": "Do'kon",
+    "delivery": "Yetkazib berish",
+    "payment": "To‘lov",
+    "exchange": "Almashtirish va qaytarish",
+    "moscowOffice": "Moskva ofisi:",
+    "tashkentOffice": "Toshkent ofisi:",
+    "address": "Presnenskaya sohil ko‘chasi, 12",
+    "copyright": "© 2024 Mualliflik huquqi"
   }
 }
