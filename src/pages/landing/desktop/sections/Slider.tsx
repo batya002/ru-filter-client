@@ -70,12 +70,12 @@ export const Slider: React.FC = () => {
     <section className="mb-[8.25rem]">
       <div className="container">
         <div
-          className="relative overflow-hidden rounded-xl shadow-lg bg-cover bg-center transition-all duration-500"
+          className="relative overflow-hidden rounded-[1.875rem] shadow-lg bg-cover bg-center transition-all duration-500"
           style={{ backgroundImage: `url(${current.imageUrl})` }}
         >
           <div className="p-14 w-[36.3125rem] h-[32.5rem] flex flex-col justify-start">
-            <div className="text-white font-glight text-xl">
-              <h2 className="text-4xl font-gbold">{current.title}</h2>
+            <div className="text-white text-xl">
+              <h2 className="text-4xl">{current.title}</h2>
               <p className="mt-10">{current.description}</p>
               {current.content}
               {current.button && (
