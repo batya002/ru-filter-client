@@ -1,11 +1,11 @@
 
-
 export default function Hero() {
+
   return (
-    <section className="mt-[1.5625rem]">
-        <div className="containe">
-            <img src="./hero-m.png" alt="hero img" className="min-w-[20rem] text-center" />
-        </div>
+    <section className="my-[1.6875rem]">
+      <div className="container">
+        <img src="./images/hero-m.webp" alt="hero img" />
+      </div>
     </section>
-  )
+  );
 }

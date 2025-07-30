@@ -1,10 +1,13 @@
-import { About, Hero } from "../sections";
+import { About, Choose, Hero, Industries, Trust } from "../sections";
 
 export default function MobileLanding() {
   return (
-    <main>
+    <>
       <Hero />
       <About />
-    </main>
+      <Trust />
+      <Industries />
+      <Choose />
+    </>
   )
 }

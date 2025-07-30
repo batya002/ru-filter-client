@@ -1,2 +1,5 @@
 export { default as Hero } from "./Hero"
 export { default as About } from "./About"
+export { default as Trust } from "./Trust"
+export { default as Industries } from "./Industries"
+export { default as Choose } from "./Choose"

@@ -98,7 +98,7 @@ export default function DesktopFooter() {
         </div>
         <div className="pt-9 pb-6 flex items-center justify-between">
           <p className="font-normal text-[1rem] text-white">
-            © 2024 {t("footer.copyright")}
+            {t("footer.copyright")}
           </p>
           <p className="font-normal text-[1rem] leading-6 text-white">
             PRESTIGERFILTR
